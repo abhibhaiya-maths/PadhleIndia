@@ -93,52 +93,67 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Programs */}
-      <section className="py-20 max-w-7xl mx-auto px-6">
-        <h2 className="text-5xl font-bold text-center mb-12">
-          Our Top Programs
-        </h2>
+      ```tsx
+{/* Programs */}
+<section className="py-20 max-w-7xl mx-auto px-6">
+  <h2 className="text-5xl font-bold text-center mb-12">
+    Start Learning
+  </h2>
 
-        <div className="grid md:grid-cols-4 gap-6">
+  <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
 
-          <div className="bg-slate-900 p-6 rounded-3xl">
-            <h3 className="text-2xl font-bold">
-              Prahaar
-            </h3>
-            <p className="text-slate-400 mt-2">
-              Class 10 Complete Mathematics
-            </p>
-          </div>
+    <a
+      href="https://www.youtube.com/@10thTitansbyUnacademy"
+      target="_blank"
+      className="bg-slate-900 p-6 rounded-3xl hover:scale-105 hover:border hover:border-blue-500 transition-all block"
+    >
+      <h3 className="text-2xl font-bold">
+        Class 10 Maths
+      </h3>
+      <p className="text-slate-400 mt-2">
+        Complete Board Preparation
+      </p>
+    </a>
 
-          <div className="bg-slate-900 p-6 rounded-3xl">
-            <h3 className="text-2xl font-bold">
-              Aarambh
-            </h3>
-            <p className="text-slate-400 mt-2">
-              Class 9 Foundation Batch
-            </p>
-          </div>
+    <a
+      href="#"
+      className="bg-slate-900 p-6 rounded-3xl hover:scale-105 hover:border hover:border-blue-500 transition-all block"
+    >
+      <h3 className="text-2xl font-bold">
+        Class 9 Maths
+      </h3>
+      <p className="text-slate-400 mt-2">
+        Foundation & Advanced Maths
+      </p>
+    </a>
 
-          <div className="bg-slate-900 p-6 rounded-3xl">
-            <h3 className="text-2xl font-bold">
-              Board Booster
-            </h3>
-            <p className="text-slate-400 mt-2">
-              Maximum Score Program
-            </p>
-          </div>
+    <a
+      href="#"
+      className="bg-slate-900 p-6 rounded-3xl hover:scale-105 hover:border hover:border-blue-500 transition-all block"
+    >
+      <h3 className="text-2xl font-bold">
+        Free Notes
+      </h3>
+      <p className="text-slate-400 mt-2">
+        PDFs, PYQs & Formula Sheets
+      </p>
+    </a>
 
-          <div className="bg-slate-900 p-6 rounded-3xl">
-            <h3 className="text-2xl font-bold">
-              NCF 2023
-            </h3>
-            <p className="text-slate-400 mt-2">
-              New Curriculum Coverage
-            </p>
-          </div>
+    <a
+      href="https://www.youtube.com/@10thTitansbyUnacademy"
+      target="_blank"
+      className="bg-slate-900 p-6 rounded-3xl hover:scale-105 hover:border hover:border-blue-500 transition-all block"
+    >
+      <h3 className="text-2xl font-bold">
+        YouTube Channel
+      </h3>
+      <p className="text-slate-400 mt-2">
+        134K+ Learners Community
+      </p>
+    </a>
 
-        </div>
-      </section>
+  </div>
+</section>
 
     </main>
   );
