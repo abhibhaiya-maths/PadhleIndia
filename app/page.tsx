@@ -13,12 +13,13 @@ export default function Home() {
           </h1>
 
           <div className="hidden md:flex gap-8">
-            <a href="#">Home</a>
-            <a href="#">Courses</a>
-            <a href="#">Notes</a>
-            <a href="#">Test Series</a>
-            <a href="#">Blog</a>
-          </div>
+  <a href="/">Home</a>
+  <a href="/courses">Courses</a>
+  <a href="/notes">Notes</a>
+  <a href="/pyqs">PYQs</a>
+  <a href="/results">Results</a>
+  <a href="/about">About</a>
+</div>
 
           <button className="bg-blue-600 px-5 py-2 rounded-xl">
             Join Now
@@ -92,8 +93,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      ```tsx
 {/* Programs */}
 <section className="py-20 max-w-7xl mx-auto px-6">
   <h2 className="text-5xl font-bold text-center mb-12">
